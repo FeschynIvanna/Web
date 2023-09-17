@@ -1,0 +1,113 @@
+.text_one{
+    width: 392.346px;
+    height: 100px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_two{
+    width: 486.265px;
+    height: 60px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.text{
+    display: grid;
+    place-items: center;
+    /* position: relative;
+    justify-content: center; */
+}
+
+.title_1{
+    /*width: 350.462px;
+    height: 230px; 
+    display: row;*/
+    /* border:#0B132A;
+    border: 34px; */
+    display: flex;
+    justify-content: center;
+}
+
+.title_2{
+    display: flex;
+}
+
+.title_3{
+    display: flex;
+}
+
+.image_1 {
+    display: flex;
+    margin-left: 26px;
+    margin-right: 12.33px;
+}
+
+.container_123{
+    display: flex;
+    margin-bottom: 149px;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center;
+}
+
+.container_1{
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    margin-right: 43.54px;
+    width: 350.462px;
+    height: 230px;
+    flex-shrink: 0;
+}
+
+.container_2{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    margin-right: 44px;
+    width: 351px;
+    height: 230px;
+    flex-shrink: 0;
+}
+
+.container_3{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    width: 350px;
+    height: 230px;
+    flex-shrink: 0;
+}
+
+.abc{
+    margin-right: 57px;
+}
+
+.image_2{
+    margin-left: 26.55px;
+}
+
+.image_3{
+    margin-left: 26px;
+}
+
+.tet{
+    margin-right: 26px;
+}
+
+.xyz{
+    margin-right: 26px;
+}

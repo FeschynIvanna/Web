@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    margin-top:42.38px;
+}
+
+.header_n{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-right: 157px; 
+    color: #0B132A;
+    margin-top: 15px;
+}
+
+.header_nav ul {
+    display: flex;
+
+}
+
+.header_nav{
+    display: flex;
+}
+
+.header_title {
+    margin-right: 40px;
+}
+
+.header_nav-item {
+    width: 53px;
+    height: 19px;
+    margin-left: 150px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-weight: 500;   
+    margin-right: 30px;
+    white-space: nowrap;
+}
+
+.header_buy-new{
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    height: 45px; 
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #F53855; 
+}
+
+.title_section_one{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.header__b {
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center;
+}
