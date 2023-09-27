@@ -1,0 +1,24 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-left: 150px;
+    /*width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;*/
+}
+
+.container{
+    margin: 8 auto;
+    max-width: 1441px;
+}
+
+a{
+    text-decoration: none;
+    color: #4F5665;
+}
+
+li{
+    display: block;
+}
+

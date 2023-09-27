@@ -1,0 +1,120 @@
+.inner_section_one {
+    width: 620px;
+    height: 406.586px; 
+    margin-top: 32px;
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_section_1 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 0px;
+}
+
+.title_section_2{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px; 
+}
+
+.section_a {
+    width: 555px;
+}
+
+.section_3{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: color 0.3s;
+}
+
+.section_3:hover {
+    color:#F53838
+}
+
+.section_c{
+    width: 555px; 
+}
+
+.section_button{
+    border-radius: 10px;
+    background: #F53838; 
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    /* border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);    */
+}
+
+.inner_section_one_img{
+    /* width: 611.241px;
+    height: 406.082px; */
+    margin-right: 87px;
+    width: 100%;
+}
+
+.section_one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 142px;
+}
+
+@media  screen and (max-width: 768px) {
+    .inner_section_one{
+        display: block;
+    }
+    .section_one_img{
+        order: -1;
+        margin-top: 50px;
+    }
+    .section_one {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .inner_section_one{
+        /* display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 12px; */
+        width: 290px;
+    }
+    .section_one_img{
+        order: -1;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .section_button{
+        width: 100%;
+    }
+    .section_one {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+    }
+    .section_a{
+        font-size: 12px;
+        width: 290px;
+    }
+    .section_c{
+        font-size: 12px;
+        width: 290px;
+    }
+}

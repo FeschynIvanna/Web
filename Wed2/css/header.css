@@ -1,0 +1,149 @@
+.header {
+    display: flex;
+    margin-top:42.38px;
+}
+
+.header_n{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-right: 157px; 
+    color: #0B132A;
+    margin-top: 15px;
+}
+
+.header_nav ul {
+    display: flex;
+
+}
+
+.header_nav{
+    display: flex;
+}
+
+.header_title {
+    margin-right: 40px;
+}
+
+.header_nav-item {
+    width: 53px;
+    height: 19px;
+    margin-left: 150px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-weight: 500;   
+    margin-right: 30px;
+    white-space: nowrap;
+}
+
+.header_buy-new{
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    height: 45px; 
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #F53855; 
+}
+
+.title_section_one{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.header__b {
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center;
+}
+
+.animated-list {
+    list-style-type: none;
+    padding: o;
+}
+
+.animated-list li {
+    transition: transform 0.5s;
+}
+
+.animated-list li:hover {
+    transform: translateY(-20px);
+}
+
+.burger__div{
+    display: none;
+}
+
+.menu__box{
+    display: none;
+}
+
+@media  screen and (max-width: 768px ) {
+    .header_nav {
+        display: block;
+    }
+    .header__b {
+        display: block;
+    }
+    .header__list ul {
+        display: block;
+        display: none;
+    }
+    .animated-list li:hover {
+        transform: translateX(20px);
+    }
+    .burger__div{
+        display: flex;
+        justify-content: left;
+    }
+    /* .header__list{
+        display: none;
+    } */
+    .menu-toggle{
+        display: none;
+    }
+    .close-menu-button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .menu-icon{
+        font-size: 30px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .menu__box{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease-in-out;
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        display: none; /* По замовчуванню меню приховане */
+    }
+    .menu-toggle:checked + .menu-icon + .menu__box {
+        display: block; /* Відображається, коли чекбокс активний */
+        height: 20%;
+        padding-top: 30px;
+    }
+    .header_nav-item{
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .menu__box ul{
+        display: block;
+    }
+}
+

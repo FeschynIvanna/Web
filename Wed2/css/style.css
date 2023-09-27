@@ -1,0 +1,29 @@
+@import "./normalize.min.css";
+
+@import "./globals.css";
+@import "./header.css";
+@import "./section-1.css";
+@import "./section-2.css";
+@import "./section-3.css";
+@import "./section-4.css";
+@import "./footer.css";
+
+/* Для екранів шириною від 320px і більше (iPhone 5s і вище) */
+@media (max-width: 768px) {
+    /* Приклад змін для екранів шириною від 320px і більше */
+    body {
+    font-size: 16px;
+    margin: 10px;
+    }
+}
+
+  /* Для екранів шириною від 768px і більше (планшети і вище) */
+@media (min-width: 768px) {
+    /* Приклад змін для екранів шириною від 768px і більше */
+    body {
+    font-size: 18px;
+    margin: 20px;
+    }
+}
+
+

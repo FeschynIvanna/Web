@@ -1,0 +1,163 @@
+.text_one{
+    width: 392.346px;
+    height: 100px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_two{
+    width: 486.265px;
+    height: 60px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.text{
+    display: grid;
+    place-items: center;
+    /* position: relative;
+    justify-content: center; */
+}
+
+.title_1{
+    /*width: 350.462px;
+    height: 230px; 
+    display: row;*/
+    /* border:#0B132A;
+    border: 34px; */
+    display: flex;
+    justify-content: center;
+}
+
+.title_2{
+    display: flex;
+}
+
+.title_3{
+    display: flex;
+}
+
+.image_1 {
+    display: flex;
+    margin-left: 2px;
+    margin-right: 12.33px;
+}
+
+.container_123{
+    display: flex;
+    margin-bottom: 149px;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+.container_1{
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    margin-right: 43.54px;
+    width: 350.462px;
+    height: 255px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+
+.container_2{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    margin-right: 44px;
+    width: 351px;
+    height: 255px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+
+.container_3{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    width: 350px;
+    height: 255px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+
+.abc{
+    margin-right: 17px;
+}
+
+.image_2{
+    margin-left: 26.55px;
+}
+
+.image_3{
+    margin-left: 26px;
+}
+
+.tet{
+    margin-right: 26px;
+}
+
+.xyz{
+    margin-right: 26px;
+}
+
+@media  screen and (max-width: 768px) {
+    .container_123{
+        display: block;
+        margin-left: 30px;
+    }
+    .text{
+        margin-top: 50px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .container_123{
+        display: block;
+        margin-left: -10px;
+        width: 100%;
+    }
+    .text{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .text_one{
+        font-size: 16px;
+        width: 290px;
+    }
+    .text_two{
+        font-size: 14px;
+        width: 290px;
+    }
+    
+}    
+
+@media  screen and (min-width: 2560px) {
+    .container_123 {
+        /* display: block;
+        margin-left: 0; 
+        display: flex; */
+        width: 1500px;
+    }
+    .text {
+        margin-top: 50px;
+        width: 1500px;
+    }
+    
+}    
