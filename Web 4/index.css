@@ -1,0 +1,80 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.flower_container{
+    display: inline-block;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    padding-left: 5px;
+    background: #f7fb7e
+}
+.sort{
+    list-style: none;
+}
+li{
+    display: none;
+}
+li.active{
+    display: flex;
+    flex-direction: column;
+}
+.pointer{
+    margin-top: 50px;
+    margin-left: 145px;
+}
+ul{
+    margin-top: -20px;
+}
+li button{
+    width: 150px
+}
+.found{
+    border: 2px solid greenyellow;
+}
+#result{
+    display: none;
+}
+#result.active{
+    display: inline-block;
+    border: 2px solid black;
+    background: rgb(36, 248, 213);
+    width: 150px;
+    height: 100px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+form{
+    display: inline-block;
+}
+.add_flower_button{
+    display: block;
+    margin-top: 30px;
+}
+.add_flower_input{
+    display: block;
+}
+.add_flower_form{
+    display: inline-block;
+}
+.add_flower_form.active{
+    display: inline-block;
+}
+.new-flower{
+    display: inline-block;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    padding-left: 5px;
+    background: #f7fb7e
+} 
