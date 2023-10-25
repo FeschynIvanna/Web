@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h4 class="title">Flowers</h4>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="create.html" target="_blank">Create</a> 
+        <a href="edit.html">Edit</a>
+    </div>
+    <form class="form">
+        <input type="text" id="searchInput" placeholder="Enter a name">
+        <button id="searchButton">Search</button>
+        <div id="result"></div>
+    </form>
+    <div class="flowers" id="flowers-container">
+        <div class="flowers_container">
+            <div class="name"></div>
+            <div class="color"></div>
+            <div class="height"></div>
+            <div class="price"></div>
+        </div>
+        <div class="flowers_container">
+            <div class="name"></div>
+            <div class="color"></div>
+            <div class="height"></div>
+            <div class="price"></div>
+        </div>
+        <div class="flowers_container">
+            <div class="name"></div>
+            <div class="color"></div>
+            <div class="height"></div>
+            <div class="price"></div>
+        </div>
+        <div class="flowers_container">
+            <div class="name"></div>
+            <div class="color"></div>
+            <div class="height"></div>
+            <div class="price"></div>
+        </div>
+        <div class="flowers_container">
+            <div class="name"></div>
+            <div class="color"></div>
+            <div class="height"></div>
+            <div class="price"></div>
+        </div>
+    </div>
+    <button class="pointer">&#9660</button>
+    <ul class = sort> Sort flowers by:
+        <li><button id="height__des">Height (descending)</button></li>
+        <li><button id="height__asc">Height (ascending)</button></li>
+        <li><button id="price__des">Price (descending)</button></li>
+        <li><button id="price__asc">Price (ascending)</button></li>
+    </ul>    
+    <script src="index.js"></script>
+</body>
+</html>
