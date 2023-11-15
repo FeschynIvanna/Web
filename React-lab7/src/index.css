@@ -1,0 +1,78 @@
+* {
+  margin: 20;
+  padding: 10;
+}
+
+body {
+  background: #fff;
+  color: #0e0d0d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
+header .presentation {
+  margin: 50px 0;
+  background: url('./img/bouquet-3158350.jpg') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: #bcbcbc;
+  position: relative;
+}
+
+header .presentation::after {
+  content: 'Найкращі квіти для вас';
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  width: 300px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #f0eaea;
+}
+
+header .presentation::before {
+  content: 'за низькими цінами';
+  position: absolute;
+  top: 320px;
+  right: 70px;
+  width: 300px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ebe4e4;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
